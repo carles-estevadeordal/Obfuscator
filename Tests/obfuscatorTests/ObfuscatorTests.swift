@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import obfuscator
+import Obfuscator
 
 class obfuscatorTests: XCTestCase {
     func testExample() {

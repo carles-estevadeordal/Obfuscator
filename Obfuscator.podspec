@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "obfuscator"
+  s.name         = "Obfuscator"
   s.version      = "0.1"
   s.summary      = ""
   s.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
-s.source       = { :git => "https://github.com/thexande/Obfuscator.git", :branch => "master",
+s.source       = { :git => "https://github.com/carles-estevadeordal/Obfuscator.git", :branch => "master",
                    :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation"
