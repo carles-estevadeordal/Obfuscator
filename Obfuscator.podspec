@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1"
   s.summary      = "Obfuscator library to XOR static data."
   s.description  = <<-DESC
-    Your description here.
+    A simple string obfuscator library made in Swift.
   DESC
   s.homepage     = "https://github.com/carles-estevadeordal/Obfuscator"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/carles-estevadeordal/Obfuscator.git", :branch => "master", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation"
+  s.swift_version = '5.0'
 end
