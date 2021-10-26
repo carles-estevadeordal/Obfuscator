@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "SwiftStringObfuscator"
-  s.version      = "0.1.1"
+  s.name         = "Obfuscator"
+  s.version      = "0.1"
   s.summary      = "Obfuscator library to XOR static data."
   s.description  = <<-DESC
     A simple string obfuscator library made in Swift.
